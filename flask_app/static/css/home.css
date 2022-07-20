@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {
+	--primary-color: #3a4052;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	background-color: #3a4052;
+}
+
+a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+.showcase {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+
+#bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.video-cont {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* .video-cont video {
+	min-width: 100%;
+	min-height: 100%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+} */
+.video-cont image {
+	min-width: 100%;
+	min-height: 100%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+/* 
+.video-cont :after {
+	content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.9);
+	position: absolute;
+} */
+
+.content {
+	z-index: 2;
+	background: black;
+	padding: 20px;
+	opacity: .9;
+	border-radius: 40px;
+	margin-top: 400px;
+}
+.content p{
+	font-size: 30px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background: var(--primary-color);
+	color: #fff;
+	border-radius: 5px;
+	border: solid #fff 1px;
+	margin-top: 25px;
+	opacity: 0.7;
+}
+
+.btn:hover {
+	transform: scale(0.98);
+}
+
+#roles {
+	padding: 40px;
+	text-align: center;
+}
+.cont img{
+	width: 50px;
+	animation: shroom 7s linear infinite;
+}
+.right img{
+    width: 50px;
+    animation: teemo 7s linear infinite;
+}
+.left img{
+    width: 50px;
+    animation: teemo 7s linear infinite;
+}
+.left {
+    flex: 1;
+}
+.mid {
+    flex: 3;
+}
+.right {
+    flex: 1;
+}
+
+@keyframes teemo {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+
+@keyframes shroom {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+.cont {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    bottom: -140px;
+	position: absolute;
+}
+.cont img:nth-child(1){
+	animation-delay: 2s;
+}
+.cont img:nth-child(2){
+	animation-delay: 3s;
+	width: 100px;
+}
+.cont img:nth-child(3){
+	animation-delay: 3s;
+}
+.cont img:nth-child(4){
+	animation-delay: 4.5s;
+}
+.cont img:nth-child(5){
+	animation-delay: 6s;
+}
+.cont img:nth-child(6){
+	animation-delay: 1.7s;
+}
+.cont img:nth-child(7){
+	animation-delay: 2.8s;
+}
+.cont img:nth-child(8){
+	animation-delay: 7s;
+}
+.cont img:nth-child(9){
+	animation-delay: 9s;
+}
+.cont img:nth-child(10){
+	animation-delay: 3s;
+}
+.cont img:nth-child(11){
+	animation-delay: 1.6s;
+}
+.cont img:nth-child(12){
+	animation-delay: 8s;
+}
+.cont img:nth-child(13){
+	animation-delay: 2.1s;
+}
+.cont img:nth-child(14){
+	animation-delay: 4s;
+}
+.cont img:nth-child(15){
+	animation-delay: 6s;
+}
+.cont img:nth-child(16){
+	animation-delay: 3.5s;
+}
+.cont img:nth-child(17){
+	animation-delay: 6s;
+}
+.cont img:nth-child(18){
+	animation-delay: 2.9s;
+}
+.cont img:nth-child(19){
+	animation-delay: 1s;
+}
+.cont img:nth-child(20){
+	animation-delay: 2s;
+}
+.cont img:nth-child(21){
+	animation-delay: 9s;
+	width: 100px;
+}
+.cont img:nth-child(22){
+	animation-delay: 11s;
+}
+
+/* .top {
+	display: flex;
+	justify-content: space-around;
+} */
+
+/* .page {
+	cursor: url(teemo_thumbsup.png), pointer;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .all{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url(https://media.giphy.com/media/dtVXlpadMBUnAPclRG/giphy.gif);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 70%;
+    padding: 0 8%;
+} */
+
+
+/* jinx + ekko fight --- https://gebo4482.tumblr.com/post/668440965678252033/jinx-vs-ekko */
+/* heimer arcane --- https://media.giphy.com/media/iggT536JzcWrfoAfxi/giphy.gif */
+/* akali and ev --- https://media.giphy.com/media/dtVXlpadMBUnAPclRG/giphy.gif */
