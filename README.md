@@ -6,7 +6,7 @@ Head over to CoinFlip Your Game and active the random champion generator that pu
 
 
 
-
+# Screenshot
 <h1> Teemo </h1>
 
 ![teemoCflip](https://user-images.githubusercontent.com/99916869/181634385-8d547eee-f93c-47f5-9146-c49378da6913.png)
